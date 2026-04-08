@@ -1,0 +1,21 @@
+🔹 Challenges Faced 
+- Understanding relationships between multipletables 
+- Finding correct file paths in Databricks 
+- Missing columns like product category Solved by checking schema and verifying file paths.
+
+🔹 Join Validation 
+- Used .show() to verify data 
+- Compared row counts before and after join - Ensured correct matching of key columns
+(order_id)
+
+🔹 Role of Window Functions 
+- Used for ranking customers and products 
+- Calculated running totals 
+- Performed analysis without losing original data
+
+🔹 Pipeline Explanation 
+- Loaded datasets 
+- Joined tables to create fact_orders 
+- Calculated metrics like sales and spend 
+- Applied window functions 
+- Generated final reporting dataset
